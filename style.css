@@ -1,0 +1,155 @@
+/* General Settings */
+body {
+    font-family: 'DM Sans', sans-serif; /* Default font for body text */
+    margin: 0;
+    padding: 0;
+    color: #000; /* Black text */
+    background-color: #f0f8ff; /* Light blue background */
+}
+
+/* Header */
+header {
+    background-color: #003366; /* Dark blue */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif; /* Font for titles */
+    font-size: 2.2rem; /* Slightly smaller */
+    font-weight: bold;
+    color: #ffffff; /* White */
+}
+
+header p {
+    font-family: 'DM Sans', sans-serif; /* Font for names below the title */
+    font-size: 1.1rem; /* Slightly smaller */
+    color: #ffffff; /* White */
+}
+
+/* Main Content */
+main {
+    max-width: 1200px; /* Reduced width */
+    margin: 0 auto;   /* Centers the content horizontally */
+    padding: 20px;    /* Adds spacing around the content */
+    background-color: #ffffff; /* White background for the content */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+    box-sizing: border-box; /* Prevents padding from affecting width */
+}
+
+/* Headers */
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    color: #ffffff; 
+    font-size: 2.2em; /* Slightly smaller */
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1em; /* Slightly smaller */
+    color: #555; /* Subtle gray for names */
+}
+
+/* Section Headings */
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em; /* Slightly smaller */
+    color: #003366;
+    margin-top: 40px;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 10px;
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 1em; /* Slightly smaller */
+}
+
+/* Visualizations */
+img, iframe {
+    display: block;
+    width: 100%;        /* Makes images and iframes responsive */
+    max-width: 1200px;   /* Limits the width of visualizations */
+    height: auto;       /* Maintains aspect ratio */
+    margin: 20px auto;  /* Centers the images/iframes */
+    border-radius: 5px; /* Subtle rounding for aesthetics */
+    border: 1px solid #ddd; /* Light border for better definition */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px 0;
+    font-size: 0.8em; /* Slightly smaller */
+    color: #777;
+    border-top: 1px solid #ddd;
+}
+
+/* Static Visualizations */
+img {
+    max-width: 70%; /* Increased max width */
+    height: auto;
+    border: 1px solid #ccc;
+    margin: 20px auto; /* Center the static images */
+}
+
+/* Chart Styles */
+#chart {
+    width: 60%;      /* Increased width */
+    max-width: 800px; /* Reduced max width for the chart */
+    height: 500px;   /* Slightly reduced height */
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Light gray background for the chart */
+}
+
+/* Interactive Visualizations */
+#interactive-vis-1{
+    width: 100%;
+    height: 450px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+
+#interactive-vis-2 {
+    width: 100%;
+    height: 950px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+/* Links */
+a {
+    color: #003366;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Adds spacing between the images */
+    margin-top: 20px;
+}
+
+.image-container img {
+    width: 48%; /* Slightly increased size */
+    height: auto; /* Maintains the image's aspect ratio */
+    border-radius: 5px; /* Optional: Rounded corners */
+    border: 1px solid #ddd; /* Optional: Light border */
+}
